@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+a{text-decoration: none;}
+li{list-style: none;}
 body{
     font-family: serif;
 }
@@ -17,7 +19,21 @@ body{
 .subheading1{}
 
 /* header */
-header {}
-header ul {}
-header ul li{}
-header ul li a{}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:10px auto;
+
+}
+header .logo img{
+    width: 150px;
+}
+header ul {
+    display: flex; 
+    gap:20px;
+}
+header ul li a{
+    text-transform: uppercase;
+}
