@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+}
+.pt-5{padding-top: 5px;}
+.pt-10{padding-top: 10px;}
+.pb-5{padding-top: 5px;}
+.pb-10{padding-top: 10px;}
+.py-5{padding: 5px 0;}
+.py-10{padding: 10px 0;}
+.my-5{margin: 5px 0;}
+.my-10{margin: 10px 0;}
+.heading1{}
+.subheading1{}
+
+/* header */
+header {}
+header ul {}
+header ul li{}
+header ul li a{}
