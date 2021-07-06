@@ -1,8 +1,11 @@
+/*------------------ Default Style ------------------ */
 *{
     margin: 0;
     padding: 0;
 }
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+}
 span.text-highlight{
     color: #FBA24F;
 }
@@ -20,6 +23,7 @@ span.text-highlight{
     font-size: 40px;
     line-height: 54px;
     color:#707070;
+    text-transform: capitalize;
 }
 .heading3{
     font-family: Montserrat;
@@ -27,8 +31,8 @@ span.text-highlight{
     font-size: 28px;
     line-height: 40px;
     color:#18191F;
+    text-transform: capitalize;
 }
-
 .d-btn {
 	font-family: Montserrat;
 	font-weight: 600;
@@ -43,7 +47,7 @@ span.text-highlight{
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     color: #18191F;
 
@@ -53,23 +57,68 @@ body{
     justify-content: center;
     align-items: center;
 }
+section{
+    padding: 50px 0;
+}
 .wrapper{
     width: 90%;
     margin: auto;
 }
-.my-5{margin: 5px 0;}
-.my-10{margin: 10px 0;}
-.py-5{padding: 5px 0;}
-.py-10{padding: 10px 0;}
+.my-20{margin: 20px 0;}
+.my-30{margin: 30px 0;}
 
-/* banner */
-.banner_content{
+/*------------------ banner section start ------------------ */
+
+.banner_content, .about_content{
     width: 50%;
 }
-.banner_image{
-    width: 50%;
+.banner_image, .about_image {
+	width: 50%;
+	text-align: center;
 }
-.banner_image img {
-	max-width: 100%;
-	height: auto;
+.banner_image img, .about_image img {
+	max-width: 80%;
 }
+/*------------------ banner section end ------------------ **/
+
+/*------------------ About section start ------------------*/
+.about{
+    background-image: url("../images/frame4.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+/*------------------ About section end ------------------**/
+
+/*------------------ Recipies section end ------------------*/
+.recipies_bio{
+    text-align: center;
+}
+.recipies_bio p{
+    width: 60%;
+    margin: 20px auto;
+}
+.recipies_item{
+    width: 33%;
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 6px #ccc;
+    border-radius: 5px;
+}
+.recipies_item img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+/*------------------ Recipies section end ------------------**/
+
+/*------------------ success_counter section end ------------------*/
+.success_counter .social_list{
+    box-shadow: 0px 0px 6px #ccc;
+    padding: 50px 100px;
+}
+.youtube_subscribers, .instagram_followers, .dribbble_likes{
+    width: 33%;
+    margin: 0 10px;
+}
+/*------------------ success_counter section end ------------------**/
