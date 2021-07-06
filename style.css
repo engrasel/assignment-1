@@ -82,7 +82,7 @@ section{
 
 /*------------------ About section start ------------------*/
 .about{
-    background-image: url("https://raw.githubusercontent.com/engrasel/assignment-1/main/images/frame4.jpg");
+    /* background-image: url("https://raw.githubusercontent.com/engrasel/assignment-1/main/images/frame4.jpg"); */
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: 100%;
