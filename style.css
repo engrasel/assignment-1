@@ -114,6 +114,7 @@ section{
 .success_counter .social_list{
     box-shadow: 0px 0px 6px #ccc;
     padding: 50px 100px;
+    text-align: center;
 }
 .youtube_subscribers, .instagram_followers, .dribbble_likes{
     width: 33%;
